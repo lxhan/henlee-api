@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "strapi-admin@3.1.4",
+      "/home/lx/projects/henlee"
+    ]
+  ],
   "_from": "strapi-admin@3.1.4",
   "_id": "strapi-admin@3.1.4",
   "_inBundle": false,
@@ -26,8 +32,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.1.4.tgz",
-  "_shasum": "b4d7081549147c6c2839bc0506e79b5c73bdeab8",
-  "_spec": "strapi-admin@3.1.4",
+  "_spec": "3.1.4",
   "_where": "/home/lx/projects/henlee",
   "author": {
     "name": "Strapi"
@@ -35,7 +40,6 @@
   "bugs": {
     "url": "https://github.com/strapi/strapi-admin/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-async-generator-functions": "^7.2.0",
@@ -131,7 +135,6 @@
     "webpackbar": "^3.2.0",
     "yup": "^0.27.0"
   },
-  "deprecated": false,
   "description": "Strapi Admin",
   "engines": {
     "node": ">=10.10.0",

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skin_types",
+  "info": {
+    "name": "Skin Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "products": {
+      "via": "skin_types",
+      "collection": "product",
+      "dominant": true
+    }
+  }
+}

@@ -27,7 +27,29 @@
       "required": false
     },
     "price": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
+    },
+    "variation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.variation"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "products",
+      "dominant": true
+    },
+    "addInfo": {
+      "type": "text"
+    },
+    "skin_types": {
+      "collection": "skin-type",
+      "via": "products"
+    },
+    "best_seller": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

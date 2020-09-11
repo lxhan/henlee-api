@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "strapi-plugin-email@3.1.4",
+      "/home/lx/projects/henlee"
+    ]
+  ],
   "_from": "strapi-plugin-email@3.1.4",
   "_id": "strapi-plugin-email@3.1.4",
   "_inBundle": false,
@@ -19,8 +25,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.1.4.tgz",
-  "_shasum": "69b3cd036a048124e28898434429370fbfe5bba6",
-  "_spec": "strapi-plugin-email@3.1.4",
+  "_spec": "3.1.4",
   "_where": "/home/lx/projects/henlee",
   "author": {
     "name": "Strapi team",
@@ -30,13 +35,11 @@
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "lodash": "4.17.19",
     "strapi-provider-email-sendmail": "3.1.4",
     "strapi-utils": "3.1.4"
   },
-  "deprecated": false,
   "description": "This is the description of the plugin.",
   "devDependencies": {
     "rimraf": "3.0.0",

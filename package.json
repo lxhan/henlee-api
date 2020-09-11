@@ -2,7 +2,7 @@
   "name": "henlee",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Henlee Shop",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,10 +25,10 @@
     "strapi-utils": "3.1.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "@lxhan"
   },
   "strapi": {
-    "uuid": "e1c26d53-ada1-458c-a830-ba417ae1b1a7"
+    "uuid": false
   },
   "engines": {
     "node": ">=10.0.0",
